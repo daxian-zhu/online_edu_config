@@ -1,0 +1,8 @@
+spring:
+  #redis配置
+  redis:
+    host: 47.95.250.218
+    password: zhudaxian;.,68NB
+    port: 6379
+    database: 0
+    timeout: 60000

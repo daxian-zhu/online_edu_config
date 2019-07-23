@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    name: druiddataSource
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://47.95.250.218:3306/online_edu_user
+      username: edu_user
+      password: edu.,Dev123
+#mybatis的配置
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl 
+    map-underscore-to-camel-case: true

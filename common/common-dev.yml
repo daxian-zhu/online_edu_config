@@ -1,0 +1,10 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh,info
+#配置访问info信息
+info:
+  app.name: ${spring.application.name}
+  company.name: 北京博学慎思教育科技有限公司dev
+  company.url: www.xuebaclass.com
